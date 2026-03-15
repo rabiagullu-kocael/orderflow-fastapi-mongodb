@@ -172,13 +172,13 @@ MONGO_URL=your_mongodb_atlas_connection_string
 SECRET_KEY=your_secret_key
 ```
 
-### 4. Uygulamayı Çalıştırma
+### 4. Uygulamayı Çalıştırmak İçin:
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-Swagger arayüzü:
+Swagger arayüzü(test arayüzü):
 
 ```
 http://127.0.0.1:8000/docs
@@ -186,7 +186,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## API Test Akışı
+## API Test Akışı Nasıldır?
 
 1. Kullanıcı kaydı oluşturulur.
 2. Login yapılır ve access token alınır.
